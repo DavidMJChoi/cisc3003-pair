@@ -1,0 +1,21 @@
+.home-section {
+    background-color: #f4f4f4; /* Light gray background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.home-section h1 {
+    color: #333;
+}
+
+.home-section p {
+    color: #666;
+}
+
+.home-section .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
