@@ -3,3 +3,15 @@
     text-align: center;
 }
 
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Adds space between images */
+}
+
+.photo-row img {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+}
+

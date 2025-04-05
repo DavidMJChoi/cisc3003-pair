@@ -19,3 +19,22 @@
     text-decoration: none;
     border-radius: 5px;
 }
+
+.profile-photo {
+    border-radius: 50%;
+}
+
+.nav__header {
+    padding: 0.75rem 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+  
+.nav__logo a {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--white);
+}
