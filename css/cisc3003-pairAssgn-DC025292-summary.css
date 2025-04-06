@@ -1,0 +1,126 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+  display: flex;
+  flex-direction: column; /* Make body a flex container to push footer to the bottom */
+}
+
+header {
+  text-align: center;
+  padding: 20px 0; /* Add padding to the header */
+}
+
+header img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 30px; /* Increase padding for more spacing */
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed; /* Fix footer at the bottom */
+  bottom: 0; /* Align footer to the bottom */
+}
+
+/* Page-Specific Background Images */
+body.home {
+  background: url('../images/背景2.jpg') no-repeat center center/cover;
+}
+
+body.profile {
+  background: url('../images/背景3.jpg') no-repeat center center/cover;
+}
+
+body.summary {
+  background: url('../images/背景4.jpg') no-repeat center center/cover;
+}
+
+body.showcase {
+  background: url('../images/背景5.jpg') no-repeat center center/cover;
+}
+
+body.qualification {
+  background: url('../images/背景6.jpg') no-repeat center center/cover;
+}
+
+/* About Me Section (Home Page) */
+#about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Add gap between text and images */
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-images {
+  display: flex;
+  gap: 20px;
+}
+
+.about-images img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+/* Side-by-Side Layout for Sections */
+.section-content {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Increase gap for more spacing */
+}
+
+.section-content img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+/* Ensure content doesn't overlap with the footer */
+main {
+  flex: 1; /* Make main content take up remaining space */
+  padding-bottom: 60px; /* Add padding to prevent content from being hidden behind the footer */
+}
+
+#values-beliefs5 {
+  margin-bottom: 200%; /* 根据页脚高度调整 */
+}

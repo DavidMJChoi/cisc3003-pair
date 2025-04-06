@@ -15,3 +15,6 @@
     object-fit: cover; /* Ensures images maintain aspect ratio */
 }
 
+.portfolio-img {
+    border-radius: 10%;
+  }
